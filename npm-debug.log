@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle vue-cli@~predev: vue-cli@
+6 silly lifecycle vue-cli@~predev: no script for predev, continuing
+7 info lifecycle vue-cli@~dev: vue-cli@
+8 verbose lifecycle vue-cli@~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle vue-cli@~dev: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\current-practice\vue\vue-maximillan\10\Start\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\sabuz\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\nodejs;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files (x86)\GitExtensions\;C:\xampp\php;C:\xampp\mysql\bin\;C:\Windows\sqllite;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\sabuz\.dnx\bin;C:\Ruby22-x64\bin;C:\Users\sabuz\AppData\Local\atom\bin;C:\Users\sabuz\AppData\Local\Microsoft\WindowsApps;C:\Users\sabuz\AppData\Roaming\npm
+10 verbose lifecycle vue-cli@~dev: CWD: F:\current-practice\vue\vue-maximillan\10\Start
+11 silly lifecycle vue-cli@~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'cross-env NODE_ENV=development webpack-dev-server --open --inline --hot' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1033:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd F:\current-practice\vue\vue-maximillan\10\Start
+14 error Windows_NT 10.0.14393
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v7.7.2
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
